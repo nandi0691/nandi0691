@@ -17,5 +17,4 @@ int getHeadData();
 bool isHeadNodeExisting();
 void FreeNode(struct Node * node);
 void PrintNode();
-void DoNothing();
 #endif
