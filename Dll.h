@@ -1,4 +1,5 @@
 #ifndef _DLL_H_ //This will prevent duplicate copying of header file
+
 #define _DLL_H_
 
 typedef struct Node{
@@ -16,5 +17,5 @@ int getHeadData();
 bool isHeadNodeExisting();
 void FreeNode(struct Node * node);
 void PrintNode();
-
+void DoNothing();
 #endif
